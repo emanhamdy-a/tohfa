@@ -8,7 +8,7 @@
        
         function connect_to_database()
          {
-           $db =  @mysqli_connect('localhost','root','' ,'tohfa_db1');
+           $db =  @mysqli_connect('localhost','root','' ,'tohfa');
            return $db;
          }
 //////////////////////////////////////////////check if no user have this regester data before now////////////////   
